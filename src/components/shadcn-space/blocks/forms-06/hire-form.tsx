@@ -174,7 +174,7 @@ const HireForm = () => {
                     </p>
                   </div>
                   <ShareActions
-                    shareText="Huo connects Columbus businesses with local creatives:"
+                    shareText="Huo connects Columbus businesses with local creatives for gigs:"
                     sharePath="/hire?utm_source=referral"
                   />
                 </motion.div>
