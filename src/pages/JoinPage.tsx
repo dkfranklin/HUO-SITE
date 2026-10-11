@@ -28,7 +28,7 @@ export function JoinPage() {
           <h1 className="landing-form-kicker">Tell us who you are.</h1>
           <p className="landing-form-note">
             We're building Columbus' creative network. Tell us about yourself, what you
-            do, and what opportunities you're looking for. If there's a fit, we'll reach
+            do, and what gigs and collabs you're looking for. If there's a fit, we'll reach
             out.
           </p>
         </div>

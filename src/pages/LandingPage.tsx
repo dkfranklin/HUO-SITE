@@ -93,7 +93,7 @@ export function LandingPage() {
             <p className="landing-micro">HUO CREATIVE TALENT CALL</p>
             <p className="landing-micro landing-call-sub">NOW OPEN</p>
             <p className="landing-tagline">
-              Columbus&apos; creative network, connecting creatives with businesses and opportunities.
+              Columbus&apos; creative network, connecting creatives with businesses and paid gigs.
             </p>
           </div>
 
@@ -124,7 +124,7 @@ export function LandingPage() {
           <h2 className="landing-form-kicker">We are building the Columbus Creative Network.</h2>
           <p className="landing-form-note">
             Huo is a platform and network being built to connect Columbus creatives with
-            businesses, opportunities, and other creatives.
+            businesses, paid gigs, and other creatives.
           </p>
         </div>
       </section>
