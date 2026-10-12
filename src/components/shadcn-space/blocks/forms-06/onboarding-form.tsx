@@ -109,7 +109,7 @@ const STEP_COPY: Record<StepId, { eyebrow: string; title: string }> = {
 
 
 const LOOKING_FOR = [
-  { id: "paid_work", label: "Paid gigs" },
+  { id: "paid_work", label: "Paid work" },
   { id: "collabs", label: "Collaborations" },
   { id: "networking", label: "Meeting other creatives" },
   { id: "learning", label: "Learning and mentorship" },
