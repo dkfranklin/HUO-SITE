@@ -109,7 +109,7 @@ const STEP_COPY: Record<StepId, { eyebrow: string; title: string }> = {
 
 
 const LOOKING_FOR = [
-  { id: "paid_work", label: "Paid gigs" },
+  { id: "paid_work", label: "Paid work" },
   { id: "collabs", label: "Collaborations" },
   { id: "networking", label: "Meeting other creatives" },
   { id: "learning", label: "Learning and mentorship" },
@@ -378,7 +378,7 @@ const OnboardingForm = () => {
                   </div>
 
                   <ShareActions
-                    shareText="Huo connects Columbus creatives with paid local gigs. Join the talent call:"
+                    shareText="Huo is building Columbus' creative network. Join the talent call:"
                     sharePath="/join?utm_source=referral"
                   />
                 </motion.div>
@@ -578,9 +578,9 @@ const OnboardingForm = () => {
                         </label>
                         <label className={checkRowClass}>
                           <input type="checkbox" checked={formData.consent_contact} onChange={(e) => set("consent_contact", e.target.checked)} className={checkboxClass} />
-                          <span>Huo can contact me about gigs and invite me to the app.</span>
+                          <span>Huo can contact me about opportunities and invite me to the app.</span>
                         </label>
-                        <PrivacyNote purpose="reach out about gigs and invite you to Huo" />
+                        <PrivacyNote purpose="reach out about opportunities and invite you to Huo" />
                       </>
                     )}
                   </div>
